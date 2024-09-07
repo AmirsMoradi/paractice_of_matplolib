@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+
+month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+since = [20, 11, 17, 2, 6, 1, 2, 5, 6, 4]
+math = [6, 22, 1, 7, 9, 11, 4, 22, 1, 1]
+
+plt.plot(month, since, label="student of pass in since")
+plt.plot(month, math, label="student of pass in math")
+plt.title("Students who were accepted in the science and math in months")
+plt.xlabel("month")
+plt.ylabel("accepted")
+plt.legend()
+plt.show()
